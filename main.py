@@ -1,13 +1,13 @@
-import app.crud as crud, app.schema as schema
-import app.models 
+import crud as crud, schema as schema
+import models 
 from fastapi import Depends, FastAPI, HTTPException, APIRouter, status
 from fastapi.security import OAuth2PasswordRequestForm
-from app.auth import authenticate_user, create_access_token, get_current_user
+from auth import authenticate_user, create_access_token, get_current_user
 from sqlalchemy.orm import Session
-from app.database import engine, Base, get_db
+from database import engine, Base, get_db
 from typing import List
 # from app.models import Movie, Rating
-from app.logger import get_logger
+from logger import get_logger
 
 logger = get_logger(__name__)
 
