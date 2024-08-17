@@ -2,7 +2,7 @@ from psycopg2 import Timestamp
 from sqlalchemy import Column, DateTime, String, Integer,Float, ForeignKey
 from sqlalchemy.orm import relationship
 from datetime import datetime
-from app.database import Base
+from database import Base
 
 
 
