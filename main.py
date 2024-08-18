@@ -1,4 +1,4 @@
-import crud as crud, schema as schema
+import crud, schema
 import models 
 from fastapi import Depends, FastAPI, HTTPException, APIRouter, status
 from fastapi.security import OAuth2PasswordRequestForm
