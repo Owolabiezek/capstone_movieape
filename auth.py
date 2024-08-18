@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 from utils import  verify_password
 from database import SessionLocal, get_db
-import crud as crud
+import crud
 
 
 load_dotenv()
