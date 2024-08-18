@@ -1,6 +1,5 @@
 import os
 # Other imports
-from some_module import some_function
 from datetime import datetime, timedelta, timezone
 from typing import Optional
 from jose import JWTError, jwt
